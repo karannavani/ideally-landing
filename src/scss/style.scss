@@ -73,6 +73,7 @@
 --------------------------------------------------------------*/
 @import "layout/footer";
 
+
 #hero-img {
     // display: block;
     max-width: 80%;
@@ -133,4 +134,13 @@
 
 .temp-footer {
     justify-content: center;
+}
+
+@include media( '<medium' ) {
+    #hero-img {
+    // display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
 }

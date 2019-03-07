@@ -1540,4 +1540,10 @@ main {
 .temp-footer {
   justify-content: center; }
 
+@media (max-width: 639px) {
+  #hero-img {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 40px; } }
+
 /*# sourceMappingURL=style.css.map */
