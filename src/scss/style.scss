@@ -92,6 +92,11 @@
 
 .button {
     border-radius: 7px;
+    background-color: #DB2F70;
+&:hover {
+       background-color: #b42d60;
+
+    }
 }
 
 .button-block {
@@ -106,7 +111,7 @@
 // }
 
 #beta {
-    color: #DA1552;
+    color: #DB2F70;
     font-size: 60%;
     // font-weight: 100;
     font-weight: lighter;
@@ -130,6 +135,6 @@
     justify-content: center;
 }
 
-body {
-    font-family: 'Proxima Nova', 'Helvetica Neue', sans-serif !important;
-}
+// .control {
+//     // display: inline;
+// }
